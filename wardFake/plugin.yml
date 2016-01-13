@@ -1,0 +1,7 @@
+name: wardFake
+author: EdwardtheWard
+version: release_1.0
+main: com.edwardtheward.wardfake.Main
+commands:
+  wardfake:
+    Description: Do /wardfake for more information.

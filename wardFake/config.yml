@@ -1,0 +1,36 @@
+###########################
+#=========================#
+#                         #
+#     wardFake Config     #
+#                         #
+#    By: EdwardtheWard    #
+#                         #
+#=========================#
+###########################
+
+#YML DOES NOT ALLOW TABS! NEVER USE TABS!
+#{NAME} represents the username of a player.
+
+#In true or false, answer the question. If you said true, then the message for joining will be enabled. Set to true by default.
+is-join-message-enabled-on-join: true
+join-message: '&6{NAME} &fhas joined the server!'
+
+#In true or false, answer the question. If you said true, then the message for leaving will be enabled. Set to true by default.
+is-leave-message-enabled-on-quit: true
+leave-message: '&6{NAME} &fhas left....'
+
+###############################################################################################################################
+
+#From this line and on, this will be the parts for fake join/leave messages. Please read the '#' marks carefully.
+
+#1. Fake join message for yourself.
+fake-join-message: '&6{NAME} &7joined! This is a fake message!'
+
+#2. Fake leave message for yourself
+fake-leave-message: '&6{NAME} &7has left! Fake message!'
+
+#3. Fake join message for others.
+fake-join-message-others: '&6{NAME} &ehas joined! Is this player real?'
+
+#4. Fake leave message for others.
+fake-leave-message-others: '&6{NAME} &ehas left! Did this player actually leave?'
